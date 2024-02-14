@@ -1,5 +1,7 @@
 import corpcommentImg from "@/public/projecttemp1.jpg";
 import wordanalyticsImg from "@/public/projecttemp3.jpg";
+import gameIMG from "@/public/Game.png";
+import peomIMG from "@/public/Capture2.png";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
@@ -51,14 +53,16 @@ export const projectsData = [
     title: "Advanced Game Lookup App",
     description:
       "Sleek designed video game lookup website with filtering and search and skeleton loading.",
+    link: "https://game-hub-mu-two.vercel.app/",
     tags: ["React", "Typescript", "Chakra UI"],
-    imageUrl: corpcommentImg,
+    imageUrl: gameIMG,
   },
   {
     title: "Peom App",
-    description: "Peom App with Error handling, caching, and Api lookup",
+    description: "Peom App with Error handling, caching, and Api lookup.",
+    link: "https://mypoemapp.vercel.app/",
     tags: ["React", "Typescript", "Chakra UI", "React Query", "Caching"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: peomIMG,
   },
 ] as const;
 
