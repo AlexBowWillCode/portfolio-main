@@ -24,7 +24,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
-        <div className="bg-[#dea6a8] absolute top-[-6rem] -z-10 right-[11rem] h-[40rem] w-[300rem] rounded-full blur-[6rem] sm:w-[68.75rem] dark:bg-[#946263]"></div>
+        <div className="bg-[#dea6a8] absolute top-[-1rem] inset-x-0 -z-10 h-[40rem] blur-[6rem] dark:bg-[#946263]"></div>
 
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
