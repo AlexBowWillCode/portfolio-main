@@ -1,7 +1,7 @@
 import corpcommentImg from "@/public/projecttemp1.jpg";
 import wordanalyticsImg from "@/public/projecttemp3.jpg";
-import gameIMG from "@/public/Game.png";
-import peomIMG from "@/public/Capture2.png";
+import gameIMG from "@/public/game.jpg";
+import peomIMG from "@/public/capture2.jpg";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
