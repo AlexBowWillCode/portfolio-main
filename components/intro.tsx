@@ -1,17 +1,15 @@
 "use client";
 
-import React from "react";
+import { useActiveSectionContext } from "@/context/active-section-context";
+import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 import { BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
-import { useSectionInView } from "@/lib/hooks";
-import { useActiveSectionContext } from "@/context/active-section-context";
+import { HiDownload } from "react-icons/hi";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
-  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
     <section
@@ -24,7 +22,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <p className="font-bold">Hello, I'm </p>
+        <p className="font-bold">Hello, I am </p>
         <TypeAnimation
           sequence={[
             // Same substring at the start will only be typed out once, initially
